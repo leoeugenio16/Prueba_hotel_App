@@ -21,31 +21,45 @@ Base de datos: PostgreSQL
 
 Hosting: Render
 📦 Instalación
-Clonar el repositorio
-Bash
+1. Clonar el repositorio
+bash
+Copiar
+Editar
 git clone https://github.com/leoeugenio16/Prueba_hotel_App.git
 cd Prueba_hotel_App
-Instalar dependencias
+2. Instalar dependencias
 🔹 Backend (Strapi)
-Bash
+bash
+Copiar
+Editar
 cd backend
 npm install
 🔹 Frontend
-Bash
+bash
+Copiar
+Editar
 cd ../frontend
 npm install
-Asegúrate de tener ambas carpetas (frontend y backend) correctamente estructuradas.
+Asegurate de tener ambas carpetas (frontend y backend) correctamente estructuradas.
+
 ▶️ Ejecución del proyecto
 🔹 Iniciar el backend
-Bash
+bash
+Copiar
+Editar
 cd backend
 npm run develop
 🔹 Iniciar el frontend
-Bash
+bash
+Copiar
+Editar
 cd ../frontend
 npm run dev
 🔐 Configuración de entorno
 Crear un archivo .env en la carpeta backend con las siguientes variables:
-Env
+
+env
+Copiar
+Editar
 DATABASE_URL=postgres://usuario:contraseña@localhost:5432/nombre_basedatos
 STRAPI_ADMIN_JWT_SECRET=tu_secreto
