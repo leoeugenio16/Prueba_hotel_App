@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personas",
+  "info": {
+    "singularName": "persona",
+    "pluralName": "personas",
+    "displayName": "Persona",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "apellido": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "reserva": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::reserva.reserva",
+      "inversedBy": "personas"
+    },
+    "dni_persona": {
+      "type": "string"
+    },
+    "edad": {
+      "type": "integer"
+    },
+    "direccion_provincias": {
+      "type": "string"
+    },
+    "direccion_localidades": {
+      "type": "string"
+    },
+    "direccion_calles": {
+      "type": "string"
+    },
+    "direccion_numero": {
+      "type": "string"
+    }
+  }
+}

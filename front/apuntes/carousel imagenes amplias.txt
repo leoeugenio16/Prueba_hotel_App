@@ -1,0 +1,38 @@
+"use client"
+import React, { useState } from 'react';
+
+const Carousel = ({ images, info }) => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  const handleNext = () => {
+    setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
+  };
+
+  const handlePrev = () => {
+    setCurrentSlide((prevSlide) => (prevSlide - 1 + images.length) % images.length);
+  };
+
+  return (
+    <div className="carousel w-full h-screen overflow-hidden relative">
+      <div className="carousel-item w-full h-full absolute top-0 left-0">
+        <img src={images[currentSlide]} alt="Imagen" className="w-full h-full object-cover" />
+        <div className="absolute bottom-1/4 w-full bg-gray-900 bg-opacity-75 p-6 text-white pt-8">
+          <h2 className="text-lg font-bold">{info[currentSlide].title}</h2>
+          <p className="text-sm">{info[currentSlide].description}</p>
+        </div>
+        <button className="absolute top-1/2 -left-4 bg-gray-900 bg-opacity-50 p-2 text-white" onClick={handlePrev}>
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+        <button className="absolute top-1/2 -right-4 bg-gray-900 bg-opacity-50 p-2 text-white" onClick={handleNext}>
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default Carousel;

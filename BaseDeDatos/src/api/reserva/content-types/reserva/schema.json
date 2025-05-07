@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reservas",
+  "info": {
+    "singularName": "reserva",
+    "pluralName": "reservas",
+    "displayName": "reserva",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "fecha_de_entrada": {
+      "type": "date"
+    },
+    "fecha_de_salida": {
+      "type": "date"
+    },
+    "habitacion": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::habitacion.habitacion",
+      "inversedBy": "reservas"
+    },
+    "personas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::persona.persona",
+      "mappedBy": "reserva"
+    },
+    "tipo": {
+      "type": "enumeration",
+      "enum": [
+        "Booking",
+        "Pagina Web",
+        "otro"
+      ]
+    },
+    "cant_personas": {
+      "type": "integer"
+    }
+  }
+}

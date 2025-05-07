@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stock_habitacion_productos",
+  "info": {
+    "singularName": "stock-habitacion-producto",
+    "pluralName": "stock-habitacion-productos",
+    "displayName": "stock_habitacion_producto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "stock_habitacion": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::stock-habitacion.stock-habitacion",
+      "inversedBy": "stock_habitacion_productos"
+    },
+    "producto": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::producto.producto",
+      "inversedBy": "stock_habitacion_productos"
+    },
+    "cantidad": {
+      "type": "integer"
+    }
+  }
+}

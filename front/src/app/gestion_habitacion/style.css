@@ -1,0 +1,79 @@
+.gestion-habitaciones-container {
+    max-width: 800px;
+    margin: 80px auto 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Centraliza el texto */
+}
+
+.gestion-habitaciones-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.habitaciones-grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    /* Centraliza los elementos de la grilla */
+}
+
+.habitacion-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Centraliza el texto */
+}
+
+.habitacion-numero-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.habitacion-actions {
+    display: flex;
+    justify-content: space-around;
+    /* Centraliza los botones */
+    margin-top: 20px;
+}
+
+.action-button {
+    padding: 10px 15px;
+    /* Ajusta el padding según sea necesario */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    white-space: nowrap;
+    /* Evita que el texto se divida en varias líneas */
+    overflow: hidden;
+    /* Oculta el texto que sobresalga del botón */
+    text-overflow: ellipsis;
+    /* Agrega puntos suspensivos si el texto es demasiado largo */
+}
+
+.action-button-primary {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.action-button-secondary {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.action-button:hover {
+    opacity: 0.8;
+}

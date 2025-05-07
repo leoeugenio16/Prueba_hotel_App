@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stock_habitacions",
+  "info": {
+    "singularName": "stock-habitacion",
+    "pluralName": "stock-habitacions",
+    "displayName": "stock_habitacion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "habitacion": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::habitacion.habitacion",
+      "inversedBy": "stock_habitacion"
+    },
+    "productos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::producto.producto",
+      "mappedBy": "stock_habitacion"
+    },
+    "stock_habitacion_productos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::stock-habitacion-producto.stock-habitacion-producto",
+      "mappedBy": "stock_habitacion"
+    }
+  }
+}

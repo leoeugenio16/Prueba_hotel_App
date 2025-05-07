@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "habitacions",
+  "info": {
+    "singularName": "habitacion",
+    "pluralName": "habitacions",
+    "displayName": "habitacion",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "numero": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    },
+    "precio": {
+      "type": "string"
+    },
+    "reservas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::reserva.reserva",
+      "mappedBy": "habitacion"
+    },
+    "elementos_habitacion": {
+      "type": "text"
+    },
+    "stock_habitacion": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::stock-habitacion.stock-habitacion",
+      "mappedBy": "habitacion"
+    }
+  }
+}
