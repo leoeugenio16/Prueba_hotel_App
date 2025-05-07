@@ -84,23 +84,13 @@ DATABASE_URL=postgres://usuario:contraseña@localhost:5432/nombre_basedatos
 STRAPI_ADMIN_JWT_SECRET=tu_secreto
 ```
 
-### Frontend (`/frontend/.env.local`)
+### Frontend (`/frontend/.env`)
 
-Crea un archivo `.env.local` en la carpeta `frontend` con la siguiente variable:
+Crea un archivo `.env` en la carpeta `frontend` con la siguiente variable:
 
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:1337
 ```
-
-> Cambia la URL según dónde se aloje tu backend (por ejemplo, en Render).
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Puedes hacer lo que quieras con él, siempre y cuando menciones al autor original. ❤️
-
----
 
 ## 🤝 Autor
 
@@ -108,5 +98,11 @@ Este proyecto está bajo la licencia MIT. Puedes hacer lo que quieras con él, s
 
 ---
 
-¡Listo para poner en marcha tu gestión hotelera con **Prueba_hotel_App**!
+
+## 🎞️ imagenes
+
+- ✅ **Gestión de reservas**:
+![image](https://github.com/user-attachments/assets/7845f708-c240-4f50-882a-fabd7b700753)
+
+
 
