@@ -36,7 +36,9 @@ Copiar
 Editar
 cd backend
 npm install
+
 🔹 Frontend
+
 bash
 Copiar
 Editar
@@ -45,19 +47,25 @@ npm install
 Asegurate de tener ambas carpetas (frontend y backend) correctamente estructuradas.
 
 ▶️ Ejecución del proyecto
+
 🔹 Iniciar el backend
+
 bash
 Copiar
 Editar
 cd backend
 npm run develop
+
 🔹 Iniciar el frontend
+
 bash
 Copiar
 Editar
 cd ../frontend
 npm run dev
+
 🔐 Configuración de entorno
+
 Crear un archivo .env en la carpeta backend con las siguientes variables:
 
 env
