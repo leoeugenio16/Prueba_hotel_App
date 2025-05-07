@@ -1,75 +1,112 @@
-🏨 Prueba_hotel_App
-Aplicación web para la gestión de reservas hoteleras, desarrollada con tecnologías modernas como JavaScript, PostgreSQL y Strapi. Este proyecto permite a los usuarios realizar reservas de habitaciones de manera eficiente y a los administradores gestionar la disponibilidad y detalles de las mismas.
+# 🏨 Prueba_hotel_App
 
-🚀 Características
-Gestión de reservas: Creación, edición y cancelación de reservas.
+**Prueba_hotel_App** es una aplicación web para la gestión de reservas hoteleras. Desarrollada con tecnologías modernas como JavaScript, PostgreSQL y Strapi, esta herramienta permite a los usuarios realizar reservas de habitaciones de manera eficiente y a los administradores gestionar la disponibilidad, stock y detalles asociados de cada habitación.
 
-Administración de habitaciones: Alta, baja y modificación de habitaciones disponibles.
+---
 
-Panel de administración: Interfaz intuitiva para la gestión de datos.
+## 🚀 Características
 
-Integración con base de datos: Uso de PostgreSQL para almacenamiento robusto.
+- ✅ **Gestión de reservas**: Creación, edición y cancelación de reservas con múltiples personas asociadas.
+- 🛏️ **Administración de habitaciones**: Alta, baja y modificación de habitaciones disponibles.
+- 📋 **Panel de administración**: Interfaz intuitiva con autenticación básica basada en roles.
+- 💾 **Integración con base de datos**: PostgreSQL como motor de almacenamiento.
+- 🧠 **Backend con Strapi**: API RESTful robusta para el manejo de contenido y autenticación.
+- 📦 **Gestión de stock**: Control y asignación de productos (bebidas, snacks, etc.) por habitación.
 
-Backend con Strapi: API RESTful para manejo de contenido y autenticación.
+---
 
-🛠️ Tecnologías utilizadas
-Frontend: JavaScript, HTML5, CSS3
+## 🛠️ Tecnologías utilizadas
 
-Backend: Strapi (Node.js)
+| Tecnología | Descripción |
+|-----------|-------------|
+| **Frontend** | JavaScript, HTML5, CSS3 |
+| **Backend** | [Strapi](https://strapi.io/) (Node.js) |
+| **Base de Datos** | PostgreSQL |
+| **Hosting** | [Render](https://render.com/) |
 
-Base de datos: PostgreSQL
+---
 
-Hosting: Render
-📦 Instalación
-1. Clonar el repositorio
-bash
-Copiar
-Editar
+## 📦 Instalación
+
+### 1. Clonar el repositorio
+
+```bash
 git clone https://github.com/leoeugenio16/Prueba_hotel_App.git
 cd Prueba_hotel_App
-2. Instalar dependencias
+```
 
-🔹 Backend (Strapi)
+### 2. Instalar dependencias
 
-bash
-Copiar
-Editar
+#### 🔹 Backend (Strapi)
+
+```bash
 cd backend
 npm install
+```
 
-🔹 Frontend
+#### 🔹 Frontend
 
-bash
-Copiar
-Editar
+```bash
 cd ../frontend
 npm install
-Asegurate de tener ambas carpetas (frontend y backend) correctamente estructuradas.
+```
 
-▶️ Ejecución del proyecto
+> Asegúrate de tener ambas carpetas (`frontend` y `backend`) correctamente estructuradas antes de continuar.
 
-🔹 Iniciar el backend
+---
 
-bash
-Copiar
-Editar
+## ▶️ Ejecución del proyecto
+
+### 🔹 Iniciar el Backend
+
+```bash
 cd backend
 npm run develop
+```
 
-🔹 Iniciar el frontend
+### 🔹 Iniciar el Frontend
 
-bash
-Copiar
-Editar
+```bash
 cd ../frontend
 npm run dev
+```
 
-🔐 Configuración de entorno
+---
 
-Crear un archivo .env en la carpeta backend con las siguientes variables:
+## 🔐 Configuración de entorno
 
-env
-Copiar
-Editar
+### Backend (`/backend/.env`)
+
+Crea un archivo `.env` en la carpeta `backend` con el siguiente contenido:
+
+```env
 DATABASE_URL=postgres://usuario:contraseña@localhost:5432/nombre_basedatos
 STRAPI_ADMIN_JWT_SECRET=tu_secreto
+```
+
+### Frontend (`/frontend/.env.local`)
+
+Crea un archivo `.env.local` en la carpeta `frontend` con la siguiente variable:
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:1337
+```
+
+> Cambia la URL según dónde se aloje tu backend (por ejemplo, en Render).
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes hacer lo que quieras con él, siempre y cuando menciones al autor original. ❤️
+
+---
+
+## 🤝 Autor
+
+- Leo Eugenio – [GitHub](https://github.com/leoeugenio16)
+
+---
+
+¡Listo para poner en marcha tu gestión hotelera con **Prueba_hotel_App**!
+
