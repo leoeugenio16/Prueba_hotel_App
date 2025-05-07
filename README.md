@@ -28,7 +28,9 @@ Editar
 git clone https://github.com/leoeugenio16/Prueba_hotel_App.git
 cd Prueba_hotel_App
 2. Instalar dependencias
+
 🔹 Backend (Strapi)
+
 bash
 Copiar
 Editar
