@@ -104,5 +104,9 @@ NEXT_PUBLIC_API_URL=http://localhost:1337
 - ✅ **Gestión de reservas**:
 ![image](https://github.com/user-attachments/assets/7845f708-c240-4f50-882a-fabd7b700753)
 
+-  **Seleccionamos la fecha para ver que habitaciones hay disponibles y que habitaciones estan ocupadas entre esas dos fechas**:
+![image](https://github.com/user-attachments/assets/6acf17be-b715-4c51-8d6e-9be3185f3268)
+
+
 
 
