@@ -192,6 +192,14 @@ NEXT_PUBLIC_API_URL=http://localhost:1337
 
 - ** a continaucion dejo fotos de la misma web en version movil ya que es responsive ** 
 
+![image](https://github.com/user-attachments/assets/337384f7-7cc5-489a-972e-afac4dc73791)
+![image](https://github.com/user-attachments/assets/b94c76b7-048e-4c82-b501-66029c8d7704)
+![image](https://github.com/user-attachments/assets/25d3b280-c747-4415-9b85-87add4cdc768)
+![image](https://github.com/user-attachments/assets/7a6851a2-c27a-4b9f-a416-c7df3ff4afb8)
+![image](https://github.com/user-attachments/assets/3664cb63-6e08-436e-8824-7f0c7564a82b)
+
+
+
 
 
 
