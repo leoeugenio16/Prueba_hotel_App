@@ -118,7 +118,7 @@ NEXT_PUBLIC_API_URL=http://localhost:1337
 
 ![image](https://github.com/user-attachments/assets/ad25b128-5581-47fe-8694-0eda8a8dd3fe)
 
-- ** bien al seleccionar una de las habitaciones ocupadas nos v a allevar a los datos de esa reserva **
+- ** Al seleccionar una de las habitaciones ocupadas nos va a llevar a los datos de esa reserva **
 
 ![image](https://github.com/user-attachments/assets/4738862d-1e0c-4bd1-b543-191124536783)
 
