@@ -145,11 +145,59 @@ NEXT_PUBLIC_API_URL=http://localhost:1337
 ![image](https://github.com/user-attachments/assets/7c0664d5-94a6-460b-bd11-b46abaa8c679)
 
 - ** y la opcion de editar el stock se ve asi , donde muestra los prodcutos que ya estan asignados ** 
-![image](https://github.com/user-attachments/assets/2a99401e-c688-4cfd-9c64-3972f8c91e04)
+
+![image](https://github.com/user-attachments/assets/94ebff4f-e96d-42b7-a51d-aa9a78dd0695)
+
 
 - ** en el input de busqueda de prodcutos al ir escribiendo nos va msotrando coincidencias de los prodcutos que podemos agregar, como asi tambien los prodcutos agregados nos da l opcion de agregar o modificar las cantidades **
 
-![image](https://github.com/user-attachments/assets/fc38d3f7-b8fb-4160-bde1-f7cc85a14cb9)
+![image](https://github.com/user-attachments/assets/6f4a7e78-fe9e-4594-8a43-2525e00c6a95)
+
+- ** en la opcion de agregar productos nos va a dar la posibilidad de crear modificar y borrar los productos que puede llegar a tener la heladera de la habitacion ** 
+
+![image](https://github.com/user-attachments/assets/e41ceed0-5ecd-4c3e-8c95-0b9e27c290b5)
+
+- ** la opcion agregar prodcuto nos pide nombre y cantidad en el stock general del hotel **
+
+![image](https://github.com/user-attachments/assets/f4b614d4-16b6-4278-b5b9-011d23674e4c)
+
+- ** la opcion editar prodcuto nos sale el input en el cual vamos a ir buscnado el producto ent iempo real mientras vamos escribiendo y al seleccionarlo nos da la opcion de editar **
+
+![image](https://github.com/user-attachments/assets/2c704f6a-30c1-4402-8082-e617e7847f74)
+
+![image](https://github.com/user-attachments/assets/409b096a-5020-418e-a795-46bcb4dd94e0)
+
+- ** esta pagina web esta protegida por contraseña ya que es la misma que usa el usuario para poder gestionar su reserva ** 
+
+![image](https://github.com/user-attachments/assets/6e8299f3-29a0-4869-ab2d-0b11897182bc)
+
+- ** la pagina principal que se usa para la gestion de reserva tiene la primera pagina donde muestra un video corto sobre el hotel ** 
+
+![image](https://github.com/user-attachments/assets/6fe37efe-f263-43e6-a69d-3a2f6b563db0)
+
+- ** si scrolleamos para abajo podrmeos ver la opcion de consultar por la reserva ** 
+
+![image](https://github.com/user-attachments/assets/1d4f66ce-8503-4a5b-9fec-a3dadabdf4e4)
+
+
+- ** donde al completarlo nos genera un mensaje que sera enviado al whatsaap oficial del hotel para que pueda darnos mas detalels con respecto a esa fecha "
+
+
+![image](https://github.com/user-attachments/assets/f50b3e59-2952-4abf-897e-f0674d66fbb2)
+
+
+- ** si seguimos scrolleando encontraremos la galeria con las imagenes del hotel **
+
+![image](https://github.com/user-attachments/assets/2ce87c6d-5491-42d2-9de7-fefb2a14aabc)
+
+- ** a continaucion dejo fotos de la misma web en version movil ya que es responsive ** 
+
+
+
+
+
+
+
 
 
 
