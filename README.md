@@ -198,6 +198,12 @@ NEXT_PUBLIC_API_URL=http://localhost:1337
 ![image](https://github.com/user-attachments/assets/7a6851a2-c27a-4b9f-a416-c7df3ff4afb8)
 ![image](https://github.com/user-attachments/assets/3664cb63-6e08-436e-8824-7f0c7564a82b)
 ![image](https://github.com/user-attachments/assets/4b4133b4-4145-41dd-a032-0db56e95770d)
+![image](https://github.com/user-attachments/assets/27bbe4c0-dafa-4228-9d29-3124bfb3e259)
+![image](https://github.com/user-attachments/assets/2a00821e-7856-4b04-af89-0fde6780daef)
+![image](https://github.com/user-attachments/assets/1e4b3e35-889e-4dbd-932b-126544c71f30)
+
+
+
 
 
 
