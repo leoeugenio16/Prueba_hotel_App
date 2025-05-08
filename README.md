@@ -132,6 +132,29 @@ NEXT_PUBLIC_API_URL=http://localhost:1337
 
 ![image](https://github.com/user-attachments/assets/952736d6-c712-410d-ade4-2dcb7919d17b)
 
+- ** ahora en gestion de habitacion, este apartado se creo por que el cliente indica que queire llevar un conrtrol de el stock que hay en cada frigobar que contiene las habitaciones ** 
+
+![image](https://github.com/user-attachments/assets/81e44b60-9dfd-42b3-be90-fcf5d5389772)
+
+- ** en este apartado se muestran todas las habitaciones existente donde cada una cuenta con la opcion de ver el stock o modificarlo ** 
+
+![image](https://github.com/user-attachments/assets/2782f144-f4e0-46a7-a065-27ad2223de84)
+
+- ** el stock se muestra asi **
+
+![image](https://github.com/user-attachments/assets/7c0664d5-94a6-460b-bd11-b46abaa8c679)
+
+- ** y la opcion de editar el stock se ve asi , donde muestra los prodcutos que ya estan asignados ** 
+![image](https://github.com/user-attachments/assets/2a99401e-c688-4cfd-9c64-3972f8c91e04)
+
+- ** en el input de busqueda de prodcutos al ir escribiendo nos va msotrando coincidencias de los prodcutos que podemos agregar, como asi tambien los prodcutos agregados nos da l opcion de agregar o modificar las cantidades **
+
+![image](https://github.com/user-attachments/assets/fc38d3f7-b8fb-4160-bde1-f7cc85a14cb9)
+
+
+
+
+
 
 
 
