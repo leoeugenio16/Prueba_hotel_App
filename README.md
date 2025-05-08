@@ -110,7 +110,8 @@ NEXT_PUBLIC_API_URL=http://localhost:1337
 -  **si seleccionamosla opcion 1 por ejemplo, al hacer clic enviamos por url el id de la habitacion mas la fecha que habiamos seleccionado para proceder a llenar los datos de la habitacion y las personas que se vna a ospedar ahi **:
 ![image](https://github.com/user-attachments/assets/557fbb8d-3591-46d7-8936-8a2911d3f3b1)
 
--** con el boton que dice agregar persona nos abre otro formulario igual para agregar perosna, como la habitaciones son de 4 el limite de formularios es 4 **
+- ** con el boton que dice agregar persona nos abre otro formulario igual para agregar perosna, como la habitaciones son de 4 el limite de formularios es 4 **
+
 ![image](https://github.com/user-attachments/assets/a73034ed-e309-48d7-aec6-39a441cb6751)
 
 
