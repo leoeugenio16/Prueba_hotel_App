@@ -51,9 +51,6 @@ cd ../frontend
 npm install
 ```
 
-> Asegúrate de tener ambas carpetas (`frontend` y `backend`) correctamente estructuradas antes de continuar.
-
----
 
 ## ▶️ Ejecución del proyecto
 
