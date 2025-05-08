@@ -112,7 +112,30 @@ NEXT_PUBLIC_API_URL=http://localhost:1337
 
 - ** con el boton que dice agregar persona nos abre otro formulario igual para agregar perosna, como la habitaciones son de 4 el limite de formularios es 4 **
 
-![image](https://github.com/user-attachments/assets/a73034ed-e309-48d7-aec6-39a441cb6751)
+![image](https://github.com/user-attachments/assets/0e8a680e-2d49-4d98-93b3-0a9bee521a9e)
+
+- ** colocamos alerts para evitar que se ingrese una fecha de entrada mas vieja que la fecha de salida **
+
+![image](https://github.com/user-attachments/assets/ad25b128-5581-47fe-8694-0eda8a8dd3fe)
+
+- ** bien al seleccionar una de las habitaciones ocupadas nos v a allevar a los datos de esa reserva **
+
+![image](https://github.com/user-attachments/assets/4738862d-1e0c-4bd1-b543-191124536783)
+
+- ** tambien se selecciona el id de esa cama y se envia mediante la url , tambien nos da la opcion de volver a la pagina anterior y de editar la reserva  **
+![image](https://github.com/user-attachments/assets/2e007deb-6222-4a93-bdfe-1a44dabfaca4)
+
+- ** Al entrar en editar la reserva , nos genera input editables con los datos que ya teniamos para poder modificarlos **
+![image](https://github.com/user-attachments/assets/bb841304-e179-482b-9516-0c88765f762b)
+
+- ** y debajo la opcion de agregar persona, confirmar los cambios y borrar la reserva ** 
+
+![image](https://github.com/user-attachments/assets/952736d6-c712-410d-ade4-2dcb7919d17b)
+
+
+
+
+
 
 
 
